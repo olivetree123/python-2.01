@@ -1,0 +1,23 @@
+/.cvsignore/2.1/Tue May  2 18:31:04 2000//Tr201
+/LICENSE/1.7.2.4/Thu Jun 14 11:26:45 2001//Tr201
+/Makefile.in/1.106/Mon Oct  9 19:31:40 2000//Tr201
+/README/1.104.2.1/Fri Apr 13 15:31:42 2001//Tr201
+/acconfig.h/1.39/Mon Oct  9 17:01:03 2000//Tr201
+/config.h.in/2.78/Mon Oct  9 21:48:02 2000//Tr201
+/configure/1.165.2.1/Sat Mar 31 14:48:35 2001//Tr201
+/configure.in/1.173.2.1/Sat Mar 31 14:48:37 2001//Tr201
+/install-sh/2.3.4.1/Sat Mar 31 14:06:32 2001//Tr201
+D/BeOS////
+D/Demo////
+D/Doc////
+D/Grammar////
+D/Include////
+D/Lib////
+D/Misc////
+D/Modules////
+D/Objects////
+D/PC////
+D/PCbuild////
+D/Parser////
+D/Python////
+D/Tools////

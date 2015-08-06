@@ -1,0 +1,23 @@
+/.cvsignore/2.1/Tue May  2 18:34:01 2000//Tr201
+/Makefile.in/2.11/Thu Aug 31 05:11:48 2000//Tr201
+/acceler.c/2.17/Fri Sep  1 23:29:28 2000//Tr201
+/assert.h/2.10/Fri Sep  1 23:29:28 2000//Tr201
+/bitset.c/2.11/Fri Sep  1 23:29:28 2000//Tr201
+/firstsets.c/2.12/Fri Sep  1 23:29:28 2000//Tr201
+/grammar.c/2.19/Fri Sep  1 23:29:28 2000//Tr201
+/grammar1.c/2.12/Fri Sep  1 23:29:28 2000//Tr201
+/intrcheck.c/2.42/Fri Sep  1 23:29:28 2000//Tr201
+/listnode.c/2.14/Fri Sep  1 23:29:28 2000//Tr201
+/metagrammar.c/2.11/Fri Sep  1 23:29:28 2000//Tr201
+/myreadline.c/2.25/Tue Sep 26 05:46:01 2000//Tr201
+/node.c/2.16/Tue Sep 26 06:11:54 2000//Tr201
+/parser.c/2.18/Mon Oct  2 10:21:59 2000//Tr201
+/parser.h/2.14/Fri Sep  1 23:29:28 2000//Tr201
+/parsetok.c/2.25/Fri Sep  1 23:29:28 2000//Tr201
+/pgen.c/2.18/Fri Sep  1 23:29:28 2000//Tr201
+/pgen.h/2.13/Fri Sep  1 23:29:28 2000//Tr201
+/pgenmain.c/2.22/Fri Sep  1 23:29:28 2000//Tr201
+/printgrammar.c/2.13/Fri Sep  1 23:29:28 2000//Tr201
+/tokenizer.c/2.49/Fri Sep  1 23:29:28 2000//Tr201
+/tokenizer.h/2.16/Fri Sep  1 23:29:28 2000//Tr201
+D

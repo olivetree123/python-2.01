@@ -1,0 +1,24 @@
+/README/1.1/Sun Apr  9 02:31:45 2000//Tr201
+/__init__.py/1.18/Sun Oct 15 19:20:20 2000//Tr201
+/archive_util.py/1.9/Tue Sep 26 02:13:49 2000//Tr201
+/bcppcompiler.py/1.7/Wed Sep 27 02:08:14 2000//Tr201
+/ccompiler.py/1.35/Wed Sep 27 02:24:21 2000//Tr201
+/cmd.py/1.25/Tue Sep 26 02:12:31 2000//Tr201
+/core.py/1.46/Tue Sep 26 01:48:44 2000//Tr201
+/cygwinccompiler.py/1.8/Wed Sep 27 02:08:14 2000//Tr201
+/dep_util.py/1.2/Tue Sep 26 02:09:20 2000//Tr201
+/dir_util.py/1.7/Sat Sep 30 17:47:17 2000//Tr201
+/dist.py/1.41/Sat Oct 14 04:06:40 2000//Tr201
+/errors.py/1.10/Sun Jul 30 01:03:31 2000//Tr201
+/extension.py/1.6/Sun Sep 17 00:45:18 2000//Tr201
+/fancy_getopt.py/1.18/Tue Sep 26 02:06:03 2000//Tr201
+/file_util.py/1.7/Sat Sep 30 17:29:35 2000//Tr201
+/filelist.py/1.8/Tue Sep 26 02:02:51 2000//Tr201
+/msvccompiler.py/1.42/Wed Sep 27 02:08:14 2000//Tr201
+/spawn.py/1.10/Tue Sep 26 02:00:51 2000//Tr201
+/sysconfig.py/1.28/Sun Sep 17 00:53:02 2000//Tr201
+/text_file.py/1.13/Sat Sep 16 18:33:36 2000//Tr201
+/unixccompiler.py/1.32/Wed Sep 27 02:08:14 2000//Tr201
+/util.py/1.56/Sat Oct 14 04:07:39 2000//Tr201
+/version.py/1.3/Tue Sep 26 01:53:34 2000//Tr201
+D/command////
