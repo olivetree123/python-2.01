@@ -338,6 +338,10 @@ wherever a void expression is allowed.  The argument shouldn't be a
 NIL pointer.  The macro _Py_NewReference(op) is used only to initialize
 reference counts to 1; it is defined here for convenience.
 
+Py_INCREF(op) 和 Py_DECREF(op)这两个宏被用来增加和减少引用次数。Py_DECREF 调用对象的 deallocator 函数，
+对于那些不包含对其他对象的引用的对象，这个宏相当于标准函数free()。
+_Py_NewReference(op) 宏用来初始化引用次数到1，这个定义完全是为了方便。
+
 We assume that the reference count field can never overflow; this can
 be proven when the size of the field is the same as the pointer size
 but even with a 16-bit reference count field it is pretty unlikely so
@@ -349,11 +353,17 @@ complications in the deallocation function.  (This is actually a
 decision that's up to the implementer of each new type so if you want,
 you can count such references to the type object.)
 
+类型对象永远不会被释放，一个对象的类型指针不会被认为是对类型对象的引用。
+（这实际上是有每个新类型的实现来决定的，所以只要你喜欢你就可以计算对类型对象的引用）
+
 *** WARNING*** The Py_DECREF macro must have a side-effect-free argument
 since it may evaluate its argument multiple times.  (The alternative
 would be to mace it a proper function or assign it to a global temporary
 variable first, both of which are slower; and in a multi-threaded
 environment the global variable trick is not safe.)
+
+Py_DECREF 宏必须有一个无副作用的参数，因为这个参数会被多次计算。（可选择的参数包括函数或者将它赋值给一个全局临时变量，
+这两个都很慢，第二种方法在多进程的环境中也不安全）
 */
 
 #ifdef Py_TRACE_REFS
